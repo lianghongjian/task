@@ -3,6 +3,6 @@ Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.md or http://ckeditor.com/license
 */
 CKEDITOR.plugins.setLang( 'pastetext', 'zh', {
-	button: '貼成純文字',
-	title: '貼成純文字'
+	button: '粘贴纯文字',
+	title: '粘贴纯文字'
 } );

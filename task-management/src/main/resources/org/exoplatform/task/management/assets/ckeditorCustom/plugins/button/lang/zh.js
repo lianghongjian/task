@@ -4,5 +4,5 @@
  */
 
 CKEDITOR.plugins.setLang( 'button', 'zh', {
-	selectedLabel: '%1 (已選取)'
+	selectedLabel: '%1 (已选取)'
 } );

@@ -4,36 +4,36 @@
  */
 
 CKEDITOR.plugins.setLang( 'a11yhelp', 'zh', {
-	title: '輔助工具指南',
-	contents: '說明內容。若要關閉此對話框請按「ESC」。',
+	title: '辅助工具指南',
+	contents: '说明内容。若要关闭此对话框请按「ESC」。',
 	legend: [
 		{
 		name: '一般',
 		items: [
 			{
-			name: '編輯器工具列',
-			legend: '請按 ${toolbarFocus} 以導覽到工具列。利用 TAB 或 SHIFT+TAB 以便移動到下一個及前一個工具列群組。利用右方向鍵或左方向鍵以便移動到下一個及上一個工具列按鈕。按下空白鍵或 ENTER 鍵啟用工具列按鈕。'
+			name: '编辑器工具列',
+			legend: '请按 ${toolbarFocus} 以导览到工具列。利用 TAB 或 SHIFT+TAB 以便移动到下一个及前一个工具列群組。利用右方向键或左方向键以便移动到下一个及上一个工具列按钮。按下空白键或 ENTER 键启用工具列按钮。'
 		},
 
 			{
-			name: '編輯器對話方塊',
+			name: '编辑器对话框',
 			legend:
-				'在對話框中，按下 TAB 鍵以導覽到下一個對話框元素，按下 SHIFT+TAB 以移動到上一個對話框元素，按下 ENTER 以遞交對話框，按下 ESC 以取消對話框。當對話框有多個分頁時，可以使用 ALT+F10 或是在對話框分頁順序中的一部份按下 TAB 以使用分頁列表。焦點在分頁列表上時，分別使用右方向鍵及左方向鍵移動到下一個及上一個分頁。'
+				'在对话框中，按下 TAB 键以导览到下一个对话框元素，按下 SHIFT+TAB 以移动到上一个对话框元素，按下 ENTER 以提交对话框，按下 ESC 以取消对话框。当对话框有多个分页时，可以使用 ALT+F10 或是在对话框分页程序中的一部份按下 TAB 以使用分页列表。焦点在分页列表上时，分别使用右方向键及左方向键移动到下一个及上一个分页。'
 		},
 
 			{
-			name: '編輯器內容功能表',
-			legend: '請按下「${contextMenu}」或是「應用程式鍵」以開啟內容選單。以「TAB」或是「↓」鍵移動到下一個選單選項。以「SHIFT + TAB」或是「↑」鍵移動到上一個選單選項。按下「空白鍵」或是「ENTER」鍵以選取選單選項。以「空白鍵」或「ENTER」或「→」開啟目前選項之子選單。以「ESC」或「←」回到父選單。以「ESC」鍵關閉內容選單」。'
+			name: '编辑器内容功能表',
+			legend: '请按下「${contextMenu}」或是「应用程式键」以开启内容选单。以「TAB」或是「↓」键移动到下一个选单选项。以「SHIFT + TAB」或是「↑」键移动到上一個选单选项。按下「空白键」或是「ENTER」键以选取选单选项。以「空白键」或「ENTER」或「→」开启目前选项的子选单。以「ESC」或「←」回到父选单。以「ESC」键关闭内容菜单」。'
 		},
 
 			{
-			name: '編輯器清單方塊',
-			legend: '在清單方塊中，使用 TAB 或下方向鍵移動到下一個列表項目。使用 SHIFT+TAB 或上方向鍵移動到上一個列表項目。按下空白鍵或 ENTER 以選取列表選項。按下 ESC 以關閉清單方塊。'
+			name: '编辑器清单方块',
+			legend: '在清单方块中，使用 TAB 或下方向键移动到下一个列表项目。使用 SHIFT+TAB 或上方向键移动到上一个列表项目。按下空白键或回车键以提取列表选项。按下ESC以关闭清单方块。'
 		},
 
 			{
-			name: '編輯器元件路徑工具列',
-			legend: '請按 ${elementsPathFocus} 以瀏覽元素路徑列。利用 TAB 或右方向鍵以便移動到下一個元素按鈕。利用 SHIFT 或左方向鍵以便移動到上一個按鈕。按下空白鍵或 ENTER 鍵來選取在編輯器中的元素。'
+			name: '编辑器元件路径工具栏',
+			legend: '请按 ${elementsPathFocus} 以浏览元素路径列。利用TAB或右方向键以便移动到下一个元素按钮。利用SHIFT或左方向键以便移动到上一个按钮。按下空白键或回车键键来提取在编辑器中的元素。'
 		}
 		]
 	},
@@ -41,49 +41,49 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'zh', {
 		name: '命令',
 		items: [
 			{
-			name: '復原命令',
-			legend: '請按下「${undo}」'
+			name: '复原命令',
+			legend: '请按下「${undo}」'
 		},
 			{
-			name: '重複命令',
-			legend: '請按下「 ${redo}」'
+			name: '重复命令',
+			legend: '请按下「 ${redo}」'
 		},
 			{
-			name: '粗體命令',
-			legend: '請按下「${bold}」'
+			name: '粗体命令',
+			legend: '请按下「${bold}」'
 		},
 			{
-			name: '斜體',
-			legend: '請按下「${italic}」'
+			name: '斜体',
+			legend: '请按下「${italic}」'
 		},
 			{
-			name: '底線命令',
-			legend: '請按下「${underline}」'
+			name: '底线命令',
+			legend: '请按下「${underline}」'
 		},
 			{
-			name: '連結',
-			legend: '請按下「${link}」'
+			name: '链接',
+			legend: '请按下「${link}」'
 		},
 			{
-			name: '隱藏工具列',
-			legend: '請按下「${toolbarCollapse}」'
+			name: '隐藏工具列',
+			legend: '请按下「${toolbarCollapse}」'
 		},
 			{
-			name: '存取前一個焦點空間命令',
-			legend: '請按下 ${accessPreviousSpace} 以存取最近但無法靠近之插字符號前的焦點空間。舉例：二個相鄰的 HR 元素。\r\n重複按鍵以存取較遠的焦點空間。'
+			name: '存取前一个焦点空间命令',
+			legend: '请按下 ${accessPreviousSpace} 以存取最近但无法靠近之插字符号前的焦点空间。举例：二个相邻的HR元素。\r\n重复按键以存取较远的焦点空间。'
 		},
 			{
-			name: '存取下一個焦點空間命令',
-			legend: '請按下 ${accessNextSpace} 以存取最近但無法靠近之插字符號後的焦點空間。舉例：二個相鄰的 HR 元素。\r\n重複按鍵以存取較遠的焦點空間。'
+			name: '存取下一个焦点空间命令',
+			legend: '请按下 ${accessNextSpace} 以存取最近但无法靠近之插字符号后的焦点空间。举例：二个相邻的HR元素。\r\n重复按键以存取较远的焦点空间。'
 		},
 			{
-			name: '協助工具說明',
-			legend: '請按下「${a11yHelp}」'
+			name: '协助工具说明',
+			legend: '请按下「${a11yHelp}」'
 		}
 		]
 	}
 	],
-	backspace: '退格鍵',
+	backspace: '退格键',
 	tab: 'Tab',
 	enter: 'Enter',
 	shift: 'Shift',
@@ -96,15 +96,15 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'zh', {
 	pageDown: 'Page Down',
 	end: 'End',
 	home: 'Home',
-	leftArrow: '向左箭號',
-	upArrow: '向上鍵號',
-	rightArrow: '向右鍵號',
-	downArrow: '向下鍵號',
+	leftArrow: '向左键号',
+	upArrow: '向上键号',
+	rightArrow: '向右键号',
+	downArrow: '向下键号',
 	insert: '插入',
-	'delete': '刪除',
-	leftWindowKey: '左方 Windows 鍵',
-	rightWindowKey: '右方 Windows 鍵',
-	selectKey: '選擇鍵',
+	'delete': '删除',
+	leftWindowKey: '左方 Windows 键',
+	rightWindowKey: '右方 Windows 键',
+	selectKey: '选择键',
 	numpad0: 'Numpad 0',
 	numpad1: 'Numpad 1',
 	numpad2: 'Numpad 2',
@@ -115,11 +115,11 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'zh', {
 	numpad7: 'Numpad 7',
 	numpad8: 'Numpad 8',
 	numpad9: 'Numpad 9',
-	multiply: '乘號',
+	multiply: '乘号',
 	add: '新增',
-	subtract: '減號',
-	decimalPoint: '小數點',
-	divide: '除號',
+	subtract: '减号',
+	decimalPoint: '小数点',
+	divide: '除号',
 	f1: 'F1',
 	f2: 'F2',
 	f3: 'F3',
@@ -134,15 +134,15 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'zh', {
 	f12: 'F12',
 	numLock: 'Num Lock',
 	scrollLock: 'Scroll Lock',
-	semiColon: '分號',
-	equalSign: '等號',
-	comma: '逗號',
-	dash: '虛線',
-	period: '句點',
-	forwardSlash: '斜線',
-	graveAccent: '抑音符號',
-	openBracket: '左方括號',
-	backSlash: '反斜線',
-	closeBracket: '右方括號',
-	singleQuote: '單引號'
+	semiColon: '分号',
+	equalSign: '等号',
+	comma: '逗号',
+	dash: '虚线',
+	period: '句号',
+	forwardSlash: '斜线',
+	graveAccent: '抑音符号',
+	openBracket: '左方括号',
+	backSlash: '反斜线',
+	closeBracket: '右方括号',
+	singleQuote: '单引号'
 } );
