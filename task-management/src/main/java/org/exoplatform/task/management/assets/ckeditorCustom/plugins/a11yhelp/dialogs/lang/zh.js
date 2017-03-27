@@ -53,7 +53,7 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'zh', {
 			legend: '請按下「${bold}」'
 		},
 			{
-			name: '斜體',
+			name: '斜体',
 			legend: '請按下「${italic}」'
 		},
 			{
